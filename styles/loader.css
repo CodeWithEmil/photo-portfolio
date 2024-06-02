@@ -1,0 +1,38 @@
+.loader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   
+   height: 100vh;
+   width: 100vw;
+   background-color: #101113;
+
+   display: grid;
+   place-items: center;
+   transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden {
+   /*display: none;*/
+   visibility: hidden;
+   opacity: 0;
+}
+
+.loader::after {
+   content: "";
+   height: 75px;
+   width: 75px;
+   border: 15px solid #141618; /*#f4fafa*/
+   border-top-color: #f4fafa; /*#c394f9*/
+   border-radius: 50%;
+   animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+   from {
+      transform: rotate(0turn);
+   }
+   to {
+      transform: rotate(1turn);
+   }
+}

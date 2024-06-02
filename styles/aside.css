@@ -38,15 +38,6 @@ aside {
    color: #929292;
 }
 
-.aside-links a {
-   text-decoration: none;
-   font-weight: 600;
-}
-
-.aside-links a:hover {
-   text-decoration: underline;
-}
-
 .aside-social-media {
    grid-area: aside-social-media;
    /*border: solid greenyellow;*/

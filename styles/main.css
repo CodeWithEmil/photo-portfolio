@@ -23,10 +23,11 @@ ul {
    list-style: none;
 }
 
+a {
+   text-decoration: none;
+   font-weight: 600;
+}
 
-
-.body-container {
-   border: solid lime;
-   grid-area: body-container;
-   background-color: #101113;
+a:hover {
+   text-decoration: underline;
 }

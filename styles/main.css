@@ -6,4 +6,27 @@
    box-sizing: border-box;
 
    font-family: inter, sans-serif;
+   color: #fafcf4;
+}
+
+.grid-container {
+   /*border: solid navy;*/
+   height: 100vh;
+   width: 100vw;
+
+   display: grid;
+   grid-template-columns: 1fr 3.5fr;
+   grid-template-areas: "aside body-container"
+}
+
+ul {
+   list-style: none;
+}
+
+
+
+.body-container {
+   border: solid lime;
+   grid-area: body-container;
+   background-color: #101113;
 }

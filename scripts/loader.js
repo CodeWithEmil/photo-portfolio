@@ -5,7 +5,4 @@ window.addEventListener("load", () => {
    setTimeout(() => {
       loader.classList.add("loader-display-none");
    }, 500)
-   loader.addEventListener("transitionend", () => {
-      document.body.removeChild(loader);
-   })
-})
+});

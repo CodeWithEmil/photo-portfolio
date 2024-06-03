@@ -9,6 +9,11 @@
    color: #fafcf4;
 }
 
+body {
+   background-color: #101113;
+   overscroll-behavior: contain;
+}
+
 .grid-container {
    /*border: solid navy;*/
    height: 100vh;

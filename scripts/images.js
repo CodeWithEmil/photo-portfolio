@@ -11,7 +11,7 @@ const images = [
    },
    {
       name: "Florence",
-      src: "img_0013.JPG",
+      src: "img_0002.JPG",
       column: 1,
    },
    {
@@ -57,6 +57,66 @@ const images = [
    {
       name: "Castle",
       src: "img_0012.JPG",
+      column: 4,
+   },
+   {
+      name: "Love beneath trees",
+      src: "img_0013.png",
+      column: 1,
+   },
+   {
+      name: "Las Vegas",
+      src: "img_0015.png",
+      column: 1,
+   },
+   {
+      name: "Claridad",
+      src: "img_0014.png",
+      column: 1,
+   },
+   {
+      name: "Magic on the trees",
+      src: "img_0024.png",
+      column: 2,
+   },
+   {
+      name: "Pinky pie",
+      src: "img_0017.png",
+      column: 2,
+   },
+   {
+      name: "Il Milano",
+      src: "img_0018.png",
+      column: 2,
+   },
+   {
+      name: "Venezia",
+      src: "img_0019.png",
+      column: 3,
+   },
+   {
+      name: "The Forest",
+      src: "img_0020.png",
+      column: 3,
+   },
+   {
+      name: "Hawai'i",
+      src: "img_0021.png",
+      column: 3,
+   },
+   {
+      name: "Florencia",
+      src: "img_0022.png",
+      column: 4,
+   },
+   {
+      name: "Florencia",
+      src: "img_0023.png",
+      column: 4,
+   },
+   {
+      name: "Las Vegas",
+      src: "img_0016.png",
       column: 4,
    },
 ];

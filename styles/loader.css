@@ -17,6 +17,10 @@
    opacity: 0;
 }
 
+.loader-display-none {
+   display: none;
+}
+
 .loader::after {
    content: "";
    height: 75px;

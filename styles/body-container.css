@@ -25,7 +25,7 @@ nav {
    align-items: center;
 }
 
-.nav-show-all a {
+.tag-selected {
    color: #929292;
 }
 
@@ -38,8 +38,9 @@ nav ul {
    overflow-x: scroll;
 }
 
-nav ul li {
+.nav-show-all a, nav ul li {
    flex-basis: content;
+   cursor: pointer;
 }
 
 main {

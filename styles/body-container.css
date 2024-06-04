@@ -94,5 +94,7 @@ main img {
    main {
       grid-template-rows: repeat(5, 1fr);
       grid-template-columns: repeat(5, 1fr);
+      padding: 0.5rem;
+      grid-gap: 0.5rem;
    }
 }

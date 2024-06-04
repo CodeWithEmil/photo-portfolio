@@ -57,3 +57,15 @@ aside {
 .aside-social-media i:hover {
    color: #929292;
 }
+
+@media only screen and (max-width: 550px) {
+   .aside-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .aside-links li {
+      margin-right: 1rem;
+   }
+}

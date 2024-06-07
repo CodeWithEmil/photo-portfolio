@@ -39,9 +39,11 @@ tagbar.forEach((li) => {
       html = "";
       let foundImages = false;
       images.forEach((image) => {
-         if (image.tags === li.innerHTML.toLowerCase()) {
-            html += `<img loading="lazy" src="images/${image.src}" alt="${image.name}" class="img-${image.gridkey}">`;
-            foundImages = true;
+         for (let i = 0; i <= image.tags.length; i++) {
+            if (image.tags[i] === li.innerHTML.toLowerCase()) {
+               html += `<img loading="lazy" src="images/${image.src}" alt="${image.name}" class="img-${image.gridkey}">`;
+               foundImages = true;
+            }
          }
       });
       

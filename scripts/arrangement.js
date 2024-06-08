@@ -41,7 +41,7 @@ tagbar.forEach((li) => {
       images.forEach((image) => {
          for (let i = 0; i <= image.tags.length; i++) {
             if (image.tags[i] === li.innerHTML.toLowerCase()) {
-               html += `<img loading="lazy" src="images/${image.src}" alt="${image.name}" class="img-${image.gridkey}">`;
+               html += `<img loading="lazy" src="images/${image.src}.webp" alt="${image.name}" class="img-${image.gridkey}">`;
                foundImages = true;
             }
          }

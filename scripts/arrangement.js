@@ -8,7 +8,7 @@ function display() {
 function loadImages() {
    html = "";
    images.forEach((image) => {
-      html += `<img loading="lazy" src="images/${image.src}" alt="${image.name}" class="img-${image.gridkey}">`;
+      html += `<img loading="lazy" src="images/${image.src}.webp" alt="${image.name}" class="img-${image.gridkey}">`;
    });
    display();
 }
